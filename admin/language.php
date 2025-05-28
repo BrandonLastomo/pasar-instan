@@ -1041,7 +1041,7 @@ foreach ($result as $row) {
                     </div>
                 </div>                
                 <div class="form-group">
-                    <label for="" class="col-sm-4 control-label">Please check your email and confirm your subscription. <span>*</span></label>
+                    <label for="" class="col-sm-4 control-label">Please wait for your subscription's confirmation. <span>*</span></label>
                     <div class="col-sm-6">
                         <textarea name="lang_value[136]" class="form-control" cols="30" rows="10" style="height:70px;"><?php echo $lang_ids[136]; ?></textarea>
                     </div>
@@ -1125,7 +1125,7 @@ foreach ($result as $row) {
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="" class="col-sm-4 control-label">Your registration is completed. Please check your email address to follow the process to confirm your registration. <span>*</span></label>
+                    <label for="" class="col-sm-4 control-label">Your registration is completed. Please your registration's confirmation<span>*</span></label>
                     <div class="col-sm-6">
                         <textarea name="lang_value[152]" class="form-control" cols="30" rows="10" style="height:70px;"><?php echo $lang_ids[152]; ?></textarea>
                     </div>

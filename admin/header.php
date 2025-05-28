@@ -174,11 +174,11 @@ if(!isset($_SESSION['user'])) {
 			          </a>
 			        </li>
 
-			        <li class="treeview <?php if( ($cur_page == 'subscriber.php')||($cur_page == 'subscriber.php') ) {echo 'active';} ?>">
+			        <!-- <li class="treeview <?php if( ($cur_page == 'subscriber.php')||($cur_page == 'subscriber.php') ) {echo 'active';} ?>">
 			          <a href="subscriber.php">
 			            <i class="fa fa-hand-o-right"></i> <span>Subscriber</span>
 			          </a>
-			        </li>
+			        </li> -->
 
       			</ul>
     		</section>

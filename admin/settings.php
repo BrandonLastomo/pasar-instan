@@ -785,7 +785,7 @@ if(isset($_POST['form11'])) {
 <?php
 $statement = $pdo->prepare("SELECT * FROM tbl_settings WHERE id=1");
 $statement->execute();
-$result = $statement->fetchAll(PDO::FETCH_ASSOC);                           
+$result = $statement->fetchAll(PDO::FETCH_ASSOC);                    
 foreach ($result as $row) {
     $logo                            = $row['logo'];
     $favicon                         = $row['favicon'];
@@ -911,7 +911,7 @@ foreach ($result as $row) {
                                     <div class="form-group">
                                         <label for="" class="col-sm-2 control-label">Existing Photo</label>
                                         <div class="col-sm-6" style="padding-top:6px;">
-                                            <img src="../assets/uploads/<?php echo $logo; ?>" class="existing-photo" style="height:80px;">
+                                            <img src="../assets/uploads/<?php echo $logo ?>" class="existing-photo" style="height:80px;">
                                         </div>
                                     </div>
                                     <div class="form-group">
